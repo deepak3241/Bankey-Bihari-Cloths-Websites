@@ -1,0 +1,2648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shri Bankey Bihari Poshak | Vrindavan</title>
+
+<meta name="description"
+content="Premium Bankey Bihari, Radha Rani & Laddu Gopal poshak and shringar collection from Vrindavan.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8f1e5;
+    color:#321915;
+    font-family:"Noto Sans Devanagari",sans-serif;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    font-family:inherit;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* =========================
+   VARIABLES
+========================= */
+
+:root{
+    --cream:#f8f1e5;
+    --cream2:#fffaf1;
+    --maroon:#651c28;
+    --dark:#2a1113;
+    --gold:#c49a45;
+    --gold-light:#e6c879;
+    --brown:#74452c;
+    --white:#fff;
+}
+
+/* =========================
+   TOP BAR
+========================= */
+
+.topbar{
+    background:var(--maroon);
+    color:#f8df9b;
+    text-align:center;
+    padding:8px 15px;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    height:82px;
+    background:rgba(255,250,241,.94);
+    backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(120,70,30,.12);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 6%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-symbol{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    background:linear-gradient(145deg,#e5bd67,#98702a);
+    color:white;
+    display:grid;
+    place-items:center;
+    font-family:"Playfair Display",serif;
+    font-size:22px;
+    box-shadow:0 5px 18px rgba(130,85,20,.2);
+}
+
+.logo-text h2{
+    font-family:"Playfair Display",serif;
+    color:var(--maroon);
+    font-size:21px;
+    line-height:1;
+}
+
+.logo-text span{
+    color:#92713b;
+    font-size:10px;
+    letter-spacing:2px;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.nav-links a{
+    font-size:14px;
+    color:#4a2923;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:var(--maroon);
+}
+
+.nav-btn{
+    background:var(--maroon);
+    color:white !important;
+    padding:12px 20px;
+    border-radius:30px;
+}
+
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+    color:var(--maroon);
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:720px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    background:
+    linear-gradient(90deg,rgba(36,10,13,.88),rgba(55,16,20,.58),rgba(0,0,0,.12)),
+    url("https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1800&q=85");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+    radial-gradient(circle at 70% 40%,rgba(222,176,74,.15),transparent 35%);
+    pointer-events:none;
+}
+
+.hero-content{
+    width:min(1250px,90%);
+    margin:auto;
+    position:relative;
+    z-index:2;
+    color:white;
+}
+
+.hero-small{
+    color:#e6c879;
+    letter-spacing:4px;
+    font-size:13px;
+    margin-bottom:18px;
+    text-transform:uppercase;
+}
+
+.hero h1{
+    font-family:"Cormorant Garamond",serif;
+    font-size:clamp(55px,8vw,105px);
+    line-height:.85;
+    font-weight:600;
+    max-width:850px;
+}
+
+.hero h1 span{
+    color:#e8c76e;
+}
+
+.hero-sub{
+    margin-top:28px;
+    max-width:580px;
+    font-size:17px;
+    line-height:1.9;
+    color:#f5eadd;
+}
+
+.hero-buttons{
+    margin-top:35px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:15px 28px;
+    border-radius:40px;
+    transition:.3s;
+    font-size:14px;
+}
+
+.btn-gold{
+    background:linear-gradient(135deg,#e6c878,#b58530);
+    color:#351417;
+    font-weight:700;
+}
+
+.btn-gold:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 30px rgba(216,173,73,.3);
+}
+
+.btn-outline{
+    border:1px solid rgba(255,255,255,.6);
+    color:white;
+}
+
+.btn-outline:hover{
+    background:white;
+    color:var(--maroon);
+}
+
+.hero-badge{
+    position:absolute;
+    right:7%;
+    bottom:12%;
+    width:150px;
+    height:150px;
+    border:1px solid rgba(235,203,126,.7);
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    text-align:center;
+    color:#e8c978;
+    font-family:"Playfair Display",serif;
+    transform:rotate(-8deg);
+}
+
+.hero-badge strong{
+    display:block;
+    font-size:24px;
+}
+
+/* =========================
+   SECTION
+========================= */
+
+.section{
+    padding:100px 6%;
+}
+
+.section-heading{
+    text-align:center;
+    max-width:720px;
+    margin:0 auto 55px;
+}
+
+.eyebrow{
+    color:#a27832;
+    font-size:12px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+}
+
+.section-heading h2{
+    font-family:"Cormorant Garamond",serif;
+    font-size:55px;
+    color:var(--maroon);
+    line-height:1;
+}
+
+.section-heading p{
+    margin-top:18px;
+    color:#765d52;
+    line-height:1.8;
+}
+
+/* =========================
+   CATEGORY CARDS
+========================= */
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:15px;
+    max-width:1250px;
+    margin:auto;
+}
+
+.category{
+    height:270px;
+    border-radius:18px;
+    overflow:hidden;
+    position:relative;
+    cursor:pointer;
+}
+
+.category img{
+    height:100%;
+    object-fit:cover;
+    transition:.6s;
+}
+
+.category:hover img{
+    transform:scale(1.1);
+}
+
+.category::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(transparent 35%,rgba(30,8,10,.9));
+}
+
+.category-content{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    z-index:2;
+    color:white;
+}
+
+.category-content h3{
+    font-family:"Cormorant Garamond",serif;
+    font-size:27px;
+}
+
+.category-content span{
+    font-size:11px;
+    color:#e7c879;
+}
+
+/* =========================
+   PRODUCTS
+========================= */
+
+.products-section{
+    background:#fffaf2;
+}
+
+.filters{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:45px;
+}
+
+.filter-btn{
+    border:1px solid #d8c4a5;
+    background:transparent;
+    color:#603c32;
+    padding:10px 19px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover{
+    background:var(--maroon);
+    border-color:var(--maroon);
+    color:white;
+}
+
+.products{
+    max-width:1250px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px;
+}
+
+.product{
+    background:white;
+    border:1px solid #eadcc5;
+    border-radius:18px;
+    overflow:hidden;
+    position:relative;
+    transition:.35s;
+}
+
+.product:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 50px rgba(77,38,20,.12);
+}
+
+.product-image{
+    height:280px;
+    overflow:hidden;
+    position:relative;
+    background:#eee;
+}
+
+.product-image img{
+    height:100%;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.product:hover .product-image img{
+    transform:scale(1.06);
+}
+
+.tag{
+    position:absolute;
+    top:14px;
+    left:14px;
+    background:var(--maroon);
+    color:#f7d98b;
+    padding:6px 10px;
+    border-radius:20px;
+    font-size:10px;
+    z-index:2;
+}
+
+.product-info{
+    padding:20px;
+}
+
+.product-category{
+    font-size:10px;
+    color:#a07a38;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+}
+
+.product h3{
+    font-family:"Cormorant Garamond",serif;
+    color:#3d1c19;
+    font-size:26px;
+    margin:6px 0;
+}
+
+.product-desc{
+    font-size:12px;
+    color:#856c61;
+    min-height:38px;
+}
+
+.product-bottom{
+    margin-top:17px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.price{
+    font-size:20px;
+    color:var(--maroon);
+    font-weight:700;
+}
+
+.order-btn{
+    border:0;
+    background:#f2e7d3;
+    color:var(--maroon);
+    padding:9px 13px;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:11px;
+    font-weight:600;
+}
+
+.order-btn:hover{
+    background:var(--maroon);
+    color:white;
+}
+
+/* =========================
+   FEATURE BANNER
+========================= */
+
+.feature-banner{
+    margin:0 6%;
+    min-height:430px;
+    border-radius:28px;
+    overflow:hidden;
+    position:relative;
+    background:
+    linear-gradient(90deg,rgba(44,10,14,.95),rgba(44,10,14,.45)),
+    url("https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=1800&q=85");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+}
+
+.feature-content{
+    padding:60px;
+    color:white;
+    max-width:650px;
+}
+
+.feature-content .eyebrow{
+    color:#e4c36e;
+}
+
+.feature-content h2{
+    font-family:"Cormorant Garamond",serif;
+    font-size:58px;
+    line-height:.95;
+}
+
+.feature-content p{
+    margin:20px 0 28px;
+    line-height:1.8;
+    color:#f0dfd0;
+}
+
+/* =========================
+   WHY US
+========================= */
+
+.why-grid{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.why-card{
+    text-align:center;
+    padding:35px 20px;
+    background:#fffaf2;
+    border:1px solid #e7d7bf;
+    border-radius:18px;
+}
+
+.why-icon{
+    width:62px;
+    height:62px;
+    margin:auto auto 18px;
+    border-radius:50%;
+    background:#f1e2c7;
+    color:var(--maroon);
+    display:grid;
+    place-items:center;
+    font-size:27px;
+}
+
+.why-card h3{
+    font-family:"Cormorant Garamond",serif;
+    font-size:25px;
+    color:var(--maroon);
+}
+
+.why-card p{
+    margin-top:10px;
+    color:#806b60;
+    font-size:13px;
+    line-height:1.7;
+}
+
+/* =========================
+   STORY
+========================= */
+
+.story{
+    background:#f0e4d1;
+}
+
+.story-grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+.story-image{
+    height:560px;
+    border-radius:25px;
+    overflow:hidden;
+    position:relative;
+}
+
+.story-image img{
+    height:100%;
+    object-fit:cover;
+}
+
+.story-card{
+    position:absolute;
+    bottom:25px;
+    right:25px;
+    background:rgba(255,250,241,.95);
+    padding:22px;
+    border-radius:15px;
+    width:220px;
+}
+
+.story-card strong{
+    color:var(--maroon);
+    font-family:"Cormorant Garamond",serif;
+    font-size:27px;
+}
+
+.story-text .eyebrow{
+    text-align:left;
+}
+
+.story-text h2{
+    font-family:"Cormorant Garamond",serif;
+    color:var(--maroon);
+    font-size:60px;
+    line-height:.95;
+}
+
+.story-text p{
+    margin-top:20px;
+    color:#715a50;
+    line-height:1.9;
+}
+
+.points{
+    margin-top:25px;
+    display:grid;
+    gap:13px;
+}
+
+.point{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    color:#4e322a;
+    font-size:14px;
+}
+
+.point span{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:var(--maroon);
+    color:white;
+    display:grid;
+    place-items:center;
+    font-size:11px;
+}
+
+/* =========================
+   TESTIMONIALS
+========================= */
+
+.testimonials{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.review{
+    background:white;
+    border:1px solid #eadcc5;
+    border-radius:20px;
+    padding:30px;
+}
+
+.stars{
+    color:#c0933c;
+    letter-spacing:4px;
+}
+
+.review p{
+    margin:20px 0;
+    color:#705b51;
+    line-height:1.8;
+    font-size:14px;
+}
+
+.reviewer{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.avatar{
+    width:43px;
+    height:43px;
+    border-radius:50%;
+    background:var(--maroon);
+    color:#e9c976;
+    display:grid;
+    place-items:center;
+}
+
+.reviewer strong{
+    font-size:13px;
+}
+
+.reviewer span{
+    display:block;
+    color:#9a8277;
+    font-size:11px;
+}
+
+/* =========================
+   STORE CTA
+========================= */
+
+.store{
+    background:var(--maroon);
+    color:white;
+    position:relative;
+    overflow:hidden;
+}
+
+.store::before{
+    content:"श्री राधे";
+    position:absolute;
+    right:-30px;
+    top:20px;
+    font-family:"Cormorant Garamond",serif;
+    font-size:150px;
+    color:rgba(255,255,255,.035);
+}
+
+.store-grid{
+    max-width:1150px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    position:relative;
+    z-index:2;
+}
+
+.store h2{
+    font-family:"Cormorant Garamond",serif;
+    font-size:60px;
+    line-height:.95;
+}
+
+.store p{
+    margin-top:20px;
+    color:#e8d5c9;
+    line-height:1.8;
+}
+
+.location-info{
+    margin-top:30px;
+    display:grid;
+    gap:16px;
+}
+
+.location-row{
+    display:flex;
+    gap:14px;
+    align-items:flex-start;
+}
+
+.location-row .icon{
+    color:#e2bd61;
+    font-size:20px;
+}
+
+.location-row strong{
+    display:block;
+    color:white;
+}
+
+.location-row span{
+    color:#d6c2b7;
+    font-size:13px;
+}
+
+.contact-box{
+    background:rgba(255,255,255,.07);
+    border:1px solid rgba(255,255,255,.15);
+    padding:35px;
+    border-radius:25px;
+}
+
+.contact-box h3{
+    font-family:"Cormorant Garamond",serif;
+    font-size:35px;
+    color:#f0cd75;
+}
+
+.contact-box p{
+    margin-bottom:20px;
+}
+
+.contact-box input,
+.contact-box select{
+    width:100%;
+    border:1px solid rgba(255,255,255,.2);
+    background:rgba(255,255,255,.07);
+    color:white;
+    padding:14px;
+    border-radius:10px;
+    margin-bottom:12px;
+    outline:none;
+}
+
+.contact-box input::placeholder{
+    color:#cdbab1;
+}
+
+.contact-box select option{
+    color:#222;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#210d0f;
+    color:#cbb9ae;
+    padding:60px 6% 25px;
+}
+
+.footer-grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:40px;
+}
+
+.footer-brand h2{
+    font-family:"Playfair Display",serif;
+    color:#e5c36d;
+}
+
+.footer-brand p{
+    margin-top:15px;
+    max-width:350px;
+    line-height:1.8;
+    font-size:13px;
+}
+
+footer h3{
+    color:white;
+    margin-bottom:15px;
+    font-size:14px;
+}
+
+footer ul{
+    list-style:none;
+    display:grid;
+    gap:10px;
+    font-size:13px;
+}
+
+footer li:hover{
+    color:#e4c36e;
+}
+
+.copyright{
+    border-top:1px solid rgba(255,255,255,.08);
+    margin-top:45px;
+    padding-top:20px;
+    text-align:center;
+    font-size:11px;
+}
+
+/* =========================
+   WHATSAPP
+========================= */
+
+.whatsapp{
+    position:fixed;
+    right:22px;
+    bottom:22px;
+    width:58px;
+    height:58px;
+    background:#25d366;
+    color:white;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    font-size:27px;
+    z-index:999;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.4)}
+    50%{box-shadow:0 0 0 12px rgba(37,211,102,0)}
+}
+
+/* =========================
+   MODAL
+========================= */
+
+.modal{
+    position:fixed;
+    inset:0;
+    background:rgba(20,5,7,.75);
+    backdrop-filter:blur(8px);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    z-index:2000;
+}
+
+.modal.active{
+    display:flex;
+}
+
+.modal-box{
+    background:#fffaf2;
+    width:min(800px,100%);
+    border-radius:25px;
+    overflow:hidden;
+    position:relative;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.modal-image{
+    height:450px;
+}
+
+.modal-image img{
+    height:100%;
+    object-fit:cover;
+}
+
+.modal-content{
+    padding:40px;
+}
+
+.modal-content h2{
+    font-family:"Cormorant Garamond",serif;
+    color:var(--maroon);
+    font-size:43px;
+}
+
+.modal-content p{
+    color:#765e54;
+    line-height:1.8;
+    margin:15px 0;
+}
+
+.close{
+    position:absolute;
+    right:15px;
+    top:12px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:0;
+    background:white;
+    color:var(--maroon);
+    font-size:22px;
+    cursor:pointer;
+    z-index:5;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:1000px){
+
+    .categories{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .products{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .why-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+}
+
+@media(max-width:700px){
+
+    .navbar{
+        height:72px;
+        padding:0 5%;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:72px;
+        left:0;
+        right:0;
+        background:#fffaf2;
+        display:none;
+        flex-direction:column;
+        align-items:flex-start;
+        padding:25px;
+        box-shadow:0 15px 30px rgba(0,0,0,.08);
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .hero{
+        min-height:650px;
+    }
+
+    .hero h1{
+        font-size:58px;
+    }
+
+    .hero-badge{
+        display:none;
+    }
+
+    .section{
+        padding:70px 5%;
+    }
+
+    .section-heading h2{
+        font-size:44px;
+    }
+
+    .categories{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .category{
+        height:230px;
+    }
+
+    .products{
+        grid-template-columns:1fr 1fr;
+        gap:12px;
+    }
+
+    .product-image{
+        height:210px;
+    }
+
+    .product-info{
+        padding:14px;
+    }
+
+    .product h3{
+        font-size:22px;
+    }
+
+    .product-desc{
+        font-size:11px;
+    }
+
+    .price{
+        font-size:16px;
+    }
+
+    .order-btn{
+        padding:8px;
+    }
+
+    .feature-banner{
+        margin:0 5%;
+    }
+
+    .feature-content{
+        padding:35px 25px;
+    }
+
+    .feature-content h2{
+        font-size:45px;
+    }
+
+    .story-grid,
+    .store-grid{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .story-image{
+        height:430px;
+    }
+
+    .story-text h2,
+    .store h2{
+        font-size:47px;
+    }
+
+    .testimonials{
+        grid-template-columns:1fr;
+    }
+
+    .modal-box{
+        grid-template-columns:1fr;
+        max-height:90vh;
+        overflow:auto;
+    }
+
+    .modal-image{
+        height:280px;
+    }
+
+    .modal-content{
+        padding:25px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:450px){
+
+    .products{
+        grid-template-columns:1fr;
+    }
+
+    .product-image{
+        height:290px;
+    }
+
+    .categories{
+        grid-template-columns:1fr;
+    }
+
+    .category{
+        height:270px;
+    }
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:52px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- =========================
+     TOP BAR
+========================= -->
+
+<div class="topbar">
+    ✦ श्री राधे ✦ वृन्दावन से प्रेम और भक्ति के साथ ✦ श्री राधे ✦
+</div>
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<nav class="navbar">
+
+    <a href="#" class="logo">
+
+        <div class="logo-symbol">
+            रा
+        </div>
+
+        <div class="logo-text">
+            <h2>Bankey Bihari</h2>
+            <span>POSHAK • VRINDAVAN</span>
+        </div>
+
+    </a>
+
+    <div class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <div class="nav-links" id="navLinks">
+
+        <a href="#home">Home</a>
+        <a href="#collections">Collections</a>
+        <a href="#poshak">Poshak</a>
+        <a href="#story">Our Story</a>
+        <a href="#visit">Visit Store</a>
+
+        <a href="#visit" class="nav-btn">
+            Order on WhatsApp
+        </a>
+
+    </div>
+
+</nav>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-small">
+            Divine Poshak • Vrindavan
+        </div>
+
+        <h1>
+            श्रृंगार जो<br>
+            <span>प्रेम से सजे</span>
+        </h1>
+
+        <p class="hero-sub">
+            ठाकुरजी, राधा रानी और लड्डू गोपाल के लिए
+            प्रेम से तैयार की गई सुंदर पोशाक एवं श्रृंगार
+            की हमारी विशेष collection.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#poshak" class="btn btn-gold">
+                Explore Collection →
+            </a>
+
+            <a href="#visit" class="btn btn-outline">
+                Visit Our Store
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-badge">
+        <div>
+            <strong>श्री राधे</strong>
+            प्रेम से<br>
+            सजा श्रृंगार
+        </div>
+    </div>
+
+</section>
+
+
+<!-- =========================
+     COLLECTIONS
+========================= -->
+
+<section class="section" id="collections">
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            Explore Collection
+        </div>
+
+        <h2>
+            आपकी भक्ति के लिए
+            विशेष श्रृंगार
+        </h2>
+
+        <p>
+            रोज़ाना पूजा से लेकर जन्माष्टमी और विशेष
+            उत्सवों तक — हर अवसर के लिए सुंदर poshak.
+        </p>
+
+    </div>
+
+
+    <div class="categories">
+
+        <div class="category" onclick="filterProducts('bankey')">
+
+            <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=700&q=80">
+
+            <div class="category-content">
+                <h3>Bankey Bihari</h3>
+                <span>VIEW COLLECTION →</span>
+            </div>
+
+        </div>
+
+
+        <div class="category" onclick="filterProducts('laddu')">
+
+            <img src="https://images.unsplash.com/photo-1603899122634-f086ca5f5ddd?auto=format&fit=crop&w=700&q=80">
+
+            <div class="category-content">
+                <h3>Laddu Gopal</h3>
+                <span>VIEW COLLECTION →</span>
+            </div>
+
+        </div>
+
+
+        <div class="category" onclick="filterProducts('radha')">
+
+            <img src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=700&q=80">
+
+            <div class="category-content">
+                <h3>Radha Rani</h3>
+                <span>VIEW COLLECTION →</span>
+            </div>
+
+        </div>
+
+
+        <div class="category" onclick="filterProducts('festival')">
+
+            <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=700&q=80">
+
+            <div class="category-content">
+                <h3>Festival</h3>
+                <span>VIEW COLLECTION →</span>
+            </div>
+
+        </div>
+
+
+        <div class="category" onclick="filterProducts('shringar')">
+
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80">
+
+            <div class="category-content">
+                <h3>Shringar</h3>
+                <span>VIEW COLLECTION →</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PRODUCTS
+========================= -->
+
+<section class="section products-section" id="poshak">
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            Our Collection
+        </div>
+
+        <h2>
+            Divine Poshak Collection
+        </h2>
+
+        <p>
+            सुंदर fabrics, traditional detailing और
+            festive designs के साथ तैयार की गई collection.
+        </p>
+
+    </div>
+
+
+    <div class="filters">
+
+        <button class="filter-btn active" onclick="filterProducts('all',this)">
+            All
+        </button>
+
+        <button class="filter-btn" onclick="filterProducts('bankey',this)">
+            Bankey Bihari
+        </button>
+
+        <button class="filter-btn" onclick="filterProducts('laddu',this)">
+            Laddu Gopal
+        </button>
+
+        <button class="filter-btn" onclick="filterProducts('radha',this)">
+            Radha Rani
+        </button>
+
+        <button class="filter-btn" onclick="filterProducts('festival',this)">
+            Festival
+        </button>
+
+    </div>
+
+
+    <div class="products" id="productGrid">
+
+
+        <!-- PRODUCT 1 -->
+
+        <div class="product" data-category="bankey">
+
+            <div class="product-image">
+
+                <span class="tag">
+                    BESTSELLER
+                </span>
+
+                <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Bankey Bihari
+                </div>
+
+                <h3>Royal Zari Poshak</h3>
+
+                <p class="product-desc">
+                    Rich zari detailing with traditional festive finish.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹499
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Royal Zari Poshak','499')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 2 -->
+
+        <div class="product" data-category="laddu">
+
+            <div class="product-image">
+
+                <span class="tag">
+                    NEW
+                </span>
+
+                <img src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Laddu Gopal
+                </div>
+
+                <h3>Peacock Poshak</h3>
+
+                <p class="product-desc">
+                    Peacock-inspired festive design with elegant detailing.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹299
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Peacock Poshak','299')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 3 -->
+
+        <div class="product" data-category="radha">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Radha Rani
+                </div>
+
+                <h3>Gota Patti Shringar</h3>
+
+                <p class="product-desc">
+                    Elegant traditional pattern for special occasions.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹599
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Gota Patti Shringar','599')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 4 -->
+
+        <div class="product" data-category="festival">
+
+            <div class="product-image">
+
+                <span class="tag">
+                    FESTIVE
+                </span>
+
+                <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Festival
+                </div>
+
+                <h3>Janmashtami Special</h3>
+
+                <p class="product-desc">
+                    Designed for grand festive celebrations.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹799
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Janmashtami Special','799')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 5 -->
+
+        <div class="product" data-category="bankey">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Bankey Bihari
+                </div>
+
+                <h3>Royal Velvet Set</h3>
+
+                <p class="product-desc">
+                    Premium velvet-style festive look.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹899
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Royal Velvet Set','899')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 6 -->
+
+        <div class="product" data-category="laddu">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Laddu Gopal
+                </div>
+
+                <h3>Golden Moti Poshak</h3>
+
+                <p class="product-desc">
+                    Pearl-style detailing for an elegant divine look.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹399
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Golden Moti Poshak','399')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 7 -->
+
+        <div class="product" data-category="radha">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Radha Rani
+                </div>
+
+                <h3>Floral Designer Set</h3>
+
+                <p class="product-desc">
+                    Soft floral styling for an elegant appearance.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹549
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Floral Designer Set','549')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCT 8 -->
+
+        <div class="product" data-category="festival">
+
+            <div class="product-image">
+
+                <span class="tag">
+                    SPECIAL
+                </span>
+
+                <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=700&q=80">
+
+            </div>
+
+            <div class="product-info">
+
+                <div class="product-category">
+                    Festival
+                </div>
+
+                <h3>Diwali Shringar Set</h3>
+
+                <p class="product-desc">
+                    Festive collection for special puja occasions.
+                </p>
+
+                <div class="product-bottom">
+
+                    <div class="price">
+                        ₹699
+                    </div>
+
+                    <button class="order-btn"
+                    onclick="openProduct('Diwali Shringar Set','699')">
+                        Quick View
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURE BANNER
+========================= -->
+
+<section class="section">
+
+    <div class="feature-banner">
+
+        <div class="feature-content">
+
+            <div class="eyebrow">
+                Special Collection
+            </div>
+
+            <h2>
+                Festival Collection
+                2026
+            </h2>
+
+            <p>
+                जन्माष्टमी, राधाष्टमी, होली और दीपावली जैसे
+                विशेष अवसरों के लिए हमारी festive collection
+                explore करें.
+            </p>
+
+            <a href="#poshak"
+               class="btn btn-gold">
+                Shop Festival Collection
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WHY US
+========================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            Why Choose Us
+        </div>
+
+        <h2>
+            प्रेम से चुना,
+            विश्वास से भेजा
+        </h2>
+
+    </div>
+
+
+    <div class="why-grid">
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                ✦
+            </div>
+
+            <h3>
+                Traditional Designs
+            </h3>
+
+            <p>
+                पारंपरिक भारतीय कला से प्रेरित
+                सुंदर designs.
+            </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                ♡
+            </div>
+
+            <h3>
+                Made With Love
+            </h3>
+
+            <p>
+                हर collection को प्रेम और
+                ध्यान से चुना गया है.
+            </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                ✓
+            </div>
+
+            <h3>
+                Size Assistance
+            </h3>
+
+            <p>
+                Size चुनने में WhatsApp पर
+                सहायता उपलब्ध.
+            </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+            <div class="why-icon">
+                ↗
+            </div>
+
+            <h3>
+                Easy Ordering
+            </h3>
+
+            <p>
+                WhatsApp पर सीधे product
+                enquiry और order.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STORY
+========================= -->
+
+<section class="section story" id="story">
+
+    <div class="story-grid">
+
+        <div class="story-image">
+
+            <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1000&q=85">
+
+            <div class="story-card">
+
+                <strong>
+                    Vrindavan
+                </strong>
+
+                <p>
+                    Where devotion becomes
+                    a beautiful tradition.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="story-text">
+
+            <div class="eyebrow">
+                Our Story
+            </div>
+
+            <h2>
+                वृन्दावन की
+                भक्ति से
+                प्रेरित
+            </h2>
+
+            <p>
+                हमारी collection का उद्देश्य केवल एक
+                poshak देना नहीं, बल्कि आपकी पूजा और
+                भक्ति के विशेष क्षणों को और सुंदर बनाना है।
+            </p>
+
+            <div class="points">
+
+                <div class="point">
+                    <span>✓</span>
+                    Traditional Indian craftsmanship
+                </div>
+
+                <div class="point">
+                    <span>✓</span>
+                    Carefully selected fabrics
+                </div>
+
+                <div class="point">
+                    <span>✓</span>
+                    Festive & daily collections
+                </div>
+
+                <div class="point">
+                    <span>✓</span>
+                    WhatsApp size assistance
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     REVIEWS
+========================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            Customer Love
+        </div>
+
+        <h2>
+            भक्तों का विश्वास
+        </h2>
+
+    </div>
+
+
+    <div class="testimonials">
+
+
+        <div class="review">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “Poshak की finishing बहुत सुंदर थी.
+                Packaging भी बहुत अच्छी मिली.”
+            </p>
+
+            <div class="reviewer">
+
+                <div class="avatar">
+                    R
+                </div>
+
+                <div>
+                    <strong>
+                        Riya Sharma
+                    </strong>
+
+                    <span>
+                        Delhi
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="review">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “WhatsApp पर size select करने में
+                बहुत अच्छी मदद मिली. Collection सुंदर है.”
+            </p>
+
+            <div class="reviewer">
+
+                <div class="avatar">
+                    A
+                </div>
+
+                <div>
+                    <strong>
+                        Ankit Verma
+                    </strong>
+
+                    <span>
+                        Jaipur
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="review">
+
+            <div class="stars">
+                ★★★★★
+            </div>
+
+            <p>
+                “Festival collection बहुत सुंदर लगी.
+                परिवार के लिए कई poshak ली.”
+            </p>
+
+            <div class="reviewer">
+
+                <div class="avatar">
+                    P
+                </div>
+
+                <div>
+                    <strong>
+                        Priya Gupta
+                    </strong>
+
+                    <span>
+                        Lucknow
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     STORE
+========================= -->
+
+<section class="section store" id="visit">
+
+    <div class="store-grid">
+
+        <div>
+
+            <div class="eyebrow">
+                Visit Our Store
+            </div>
+
+            <h2>
+                वृन्दावन आएं,
+                दर्शन के साथ
+                shopping भी करें
+            </h2>
+
+            <p>
+                अपने पसंदीदा designs को करीब से देखें,
+                fabrics compare करें और हमारे team से
+                size तथा collection के बारे में बात करें.
+            </p>
+
+
+            <div class="location-info">
+
+                <div class="location-row">
+
+                    <div class="icon">
+                        ⌖
+                    </div>
+
+                    <div>
+                        <strong>
+                            Store Location
+                        </strong>
+
+                        <span>
+                            Near Bankey Bihari Ji Temple,
+                            Vrindavan, Uttar Pradesh
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="location-row">
+
+                    <div class="icon">
+                        ◷
+                    </div>
+
+                    <div>
+                        <strong>
+                            Store Hours
+                        </strong>
+
+                        <span>
+                            9:00 AM — 9:00 PM
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <div class="location-row">
+
+                    <div class="icon">
+                        ☎
+                    </div>
+
+                    <div>
+                        <strong>
+                            WhatsApp
+                        </strong>
+
+                        <span>
+                            +91 98765 43210
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-box">
+
+            <h3>
+                Size / Product Enquiry
+            </h3>
+
+            <p>
+                Product पसंद आया? WhatsApp पर
+                enquiry भेजें.
+            </p>
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Your Name"
+            >
+
+            <input
+                type="text"
+                id="productName"
+                placeholder="Product Name"
+            >
+
+            <select id="size">
+
+                <option value="">
+                    Select Size
+                </option>
+
+                <option>
+                    Small
+                </option>
+
+                <option>
+                    Medium
+                </option>
+
+                <option>
+                    Large
+                </option>
+
+                <option>
+                    Custom Size
+                </option>
+
+            </select>
+
+            <button
+                class="btn btn-gold"
+                style="width:100%;border:0;cursor:pointer"
+                onclick="sendEnquiry()">
+
+                Send WhatsApp Enquiry →
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-grid">
+
+        <div class="footer-brand">
+
+            <h2>
+                Shri Bankey Bihari Poshak
+            </h2>
+
+            <p>
+                Divine poshak and shringar inspired
+                by the devotional spirit of Vrindavan.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Collections
+            </h3>
+
+            <ul>
+
+                <li>Bankey Bihari Poshak</li>
+                <li>Laddu Gopal</li>
+                <li>Radha Rani</li>
+                <li>Festival Collection</li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Explore
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#poshak">
+                        Shop
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#story">
+                        Our Story
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#visit">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Connect
+            </h3>
+
+            <ul>
+
+                <li>
+                    WhatsApp
+                </li>
+
+                <li>
+                    Instagram
+                </li>
+
+                <li>
+                    Facebook
+                </li>
+
+                <li>
+                    Vrindavan
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Shri Bankey Bihari Poshak.
+        Designed as a premium freelance website demo.
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     WHATSAPP FLOATING BUTTON
+========================= -->
+
+<a
+    class="whatsapp"
+    href="https://wa.me/919876543210?text=Radhe%20Radhe%20%F0%9F%99%8F%20I%20want%20to%20see%20your%20poshak%20collection."
+    target="_blank">
+
+    ☎
+
+</a>
+
+
+<!-- =========================
+     PRODUCT MODAL
+========================= -->
+
+<div class="modal" id="productModal">
+
+    <div class="modal-box">
+
+        <button
+            class="close"
+            onclick="closeModal()">
+            ×
+        </button>
+
+        <div class="modal-image">
+
+            <img
+                id="modalImage"
+                src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=900&q=85">
+
+        </div>
+
+        <div class="modal-content">
+
+            <div class="eyebrow">
+                Divine Collection
+            </div>
+
+            <h2 id="modalTitle">
+                Royal Zari Poshak
+            </h2>
+
+            <p>
+                Beautiful traditional styling with
+                elegant festive detailing.
+            </p>
+
+            <h3
+                id="modalPrice"
+                style="font-size:27px;color:#651c28;margin:20px 0;">
+                ₹499
+            </h3>
+
+            <a
+                id="modalWhatsApp"
+                href="#"
+                target="_blank"
+                class="btn btn-gold">
+
+                Order on WhatsApp →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+/* =========================
+   MOBILE MENU
+========================= */
+
+function toggleMenu(){
+
+    document
+    .getElementById("navLinks")
+    .classList.toggle("active");
+
+}
+
+
+/* =========================
+   PRODUCT FILTER
+========================= */
+
+function filterProducts(category,button){
+
+    const products =
+        document.querySelectorAll(".product");
+
+    const buttons =
+        document.querySelectorAll(".filter-btn");
+
+
+    if(button){
+
+        buttons.forEach(btn=>{
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+    }
+
+
+    products.forEach(product=>{
+
+        if(category === "all"){
+
+            product.style.display="block";
+
+        }else{
+
+            if(product.dataset.category === category){
+
+                product.style.display="block";
+
+            }else{
+
+                product.style.display="none";
+
+            }
+
+        }
+
+    });
+
+
+    document
+    .getElementById("poshak")
+    .scrollIntoView({
+        behavior:"smooth"
+    });
+
+}
+
+
+/* =========================
+   PRODUCT MODAL
+========================= */
+
+function openProduct(name,price){
+
+    const modal =
+        document.getElementById("productModal");
+
+    const title =
+        document.getElementById("modalTitle");
+
+    const priceBox =
+        document.getElementById("modalPrice");
+
+    const whatsapp =
+        document.getElementById("modalWhatsApp");
+
+
+    title.innerText = name;
+
+    priceBox.innerText = "₹" + price;
+
+
+    const message =
+        `Radhe Radhe 🙏%0A%0AI am interested in:%0A${name}%0APrice: ₹${price}%0A%0APlease share available sizes and details.`;
+
+    whatsapp.href =
+        "https://wa.me/919876543210?text=" + message;
+
+
+    modal.classList.add("active");
+
+}
+
+
+function closeModal(){
+
+    document
+    .getElementById("productModal")
+    .classList.remove("active");
+
+}
+
+
+document
+.getElementById("productModal")
+.addEventListener("click",function(e){
+
+    if(e.target === this){
+
+        closeModal();
+
+    }
+
+});
+
+
+/* =========================
+   WHATSAPP ENQUIRY
+========================= */
+
+function sendEnquiry(){
+
+    const name =
+        document.getElementById("customerName").value;
+
+    const product =
+        document.getElementById("productName").value;
+
+    const size =
+        document.getElementById("size").value;
+
+
+    if(!name || !product){
+
+        alert("Please enter your name and product name.");
+
+        return;
+
+    }
+
+
+    const message =
+`Radhe Radhe 🙏
+
+Name: ${name}
+
+Product:
+${product}
+
+Size:
+${size || "Need assistance"}
+
+I would like to know more about this product.`;
+
+
+    const url =
+        "https://wa.me/919876543210?text=" +
+        encodeURIComponent(message);
+
+
+    window.open(url,"_blank");
+
+}
+
+
+/* =========================
+   NAV LINK CLOSE MOBILE MENU
+========================= */
+
+document.querySelectorAll(".nav-links a")
+.forEach(link=>{
+
+    link.addEventListener("click",()=>{
+
+        document
+        .getElementById("navLinks")
+        .classList.remove("active");
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
